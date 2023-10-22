@@ -1,8 +1,9 @@
 name: test-action-1234
-description: This is just to test custom github action
+description: "This is just to test custom github action"
 inputs:
   version2:
-  required: false
+	description: "Path to test script"
+    required: false
     default: test1234
 runs:
   using: node12
