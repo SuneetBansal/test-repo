@@ -1,9 +1,9 @@
 name: test-action-1234
 description: This is just to test custom github action
 inputs:
-	version-type:
-		required: false
-		default: test1234
+  version2:
+  required: false
+    default: test1234
 runs:
-	using: node12
-	main: action/index.js
+  using: node12
+  main: action/index.js
